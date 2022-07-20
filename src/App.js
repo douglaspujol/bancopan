@@ -1,10 +1,13 @@
 import React from 'react';
+import Home from './Pages/Home/index';
+import GlobalStyle from './GlobalStyles/global';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Banco Pan Bolado</h1>
-    </div>
+    <>
+      <Home />
+      <GlobalStyle />
+    </>
   );
 }
 
