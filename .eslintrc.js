@@ -22,6 +22,7 @@ module.exports = {
     'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
     'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     'react/jsx-one-expression-per-line': 'off',
+    'import/prefer-default-export': 'off',
     'global-require': 'off',
     'react-native/no-raw-text': 'off',
     'no-param-reassign': 'off',
